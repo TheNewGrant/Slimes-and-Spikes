@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/Menus/Title/Title.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Entity/Player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/World/Side/IntroductionLevel/Intro1/Intro_Chasm.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Menus/AccountSelect/AccountSelect.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Menus/Credits/EndLevel/EndIntro/EndIntro.tscn" type="PackedScene" id=5]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 145.413, 47.7136 )
+
+[node name="Chasm" parent="." instance=ExtResource( 3 )]
+
+[node name="AccountSelect" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="Title" parent="." instance=ExtResource( 1 )]
+visible = false
+margin_left = -2.17123
+margin_top = -7.91884
+margin_right = -2.17123
+margin_bottom = -7.91884
+
+[node name="End" parent="." instance=ExtResource( 5 )]
+visible = false

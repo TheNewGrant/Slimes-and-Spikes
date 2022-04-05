@@ -1,0 +1,27 @@
+[gd_scene format=2]
+
+[node name="AccountSelect" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Margin" type="MarginContainer" parent="."]
+margin_right = 1026.0
+margin_bottom = 603.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Center" type="CenterContainer" parent="Margin"]
+margin_right = 1026.0
+margin_bottom = 603.0
+
+[node name="Play" type="Button" parent="Margin/Center"]
+margin_left = 494.0
+margin_top = 291.0
+margin_right = 532.0
+margin_bottom = 311.0
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}

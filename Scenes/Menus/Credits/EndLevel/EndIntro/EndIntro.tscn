@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="End" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Marign" type="MarginContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+
+[node name="Center" type="CenterContainer" parent="Marign"]
+margin_right = 1024.0
+margin_bottom = 600.0
+
+[node name="End" type="Label" parent="Marign/Center"]
+margin_left = 475.0
+margin_top = 293.0
+margin_right = 549.0
+margin_bottom = 307.0
+text = "End of Intro"

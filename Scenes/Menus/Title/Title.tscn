@@ -1,0 +1,41 @@
+[gd_scene format=2]
+
+[node name="Title" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Margin" type="MarginContainer" parent="."]
+margin_top = -1.0
+margin_right = 1022.0
+margin_bottom = 598.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+margin_right = 1022.0
+margin_bottom = 599.0
+
+[node name="CenterContainer" type="CenterContainer" parent="Margin/VBox"]
+margin_right = 1022.0
+margin_bottom = 581.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button" type="Button" parent="Margin/VBox/CenterContainer"]
+margin_left = 492.0
+margin_top = 280.0
+margin_right = 530.0
+margin_bottom = 300.0
+text = "Play"
+
+[node name="Version" type="Label" parent="Margin/VBox"]
+margin_top = 585.0
+margin_right = 1022.0
+margin_bottom = 599.0
+text = "Version: Proto1"
+align = 2
